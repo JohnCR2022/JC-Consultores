@@ -41,6 +41,20 @@ body {
     margin: 0 auto
 }
 
+.boton {
+background-color: var(--secundario);
+color:var(--blanco);
+padding: 1rem 3rem;
+margin-top: 1rem;
+font-size: 2rem;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: 700;
+border-radius: 0.5rem;
+
+
+}
+
 .navegacion-principal{
     display: flex;
     flex-direction: column;
@@ -97,5 +111,6 @@ body {
 .ubicacion{
     display: flex;
     align-items: flex-end;
+    font-weight: 700;
     
 }
