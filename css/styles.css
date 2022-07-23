@@ -10,8 +10,13 @@
 
 html{
     font-size: 62.5%;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
+
+*,*:before,*:after { 
+    box-sizing: inherit;
+}
+/* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ --> para info sobre esta funcionalidad  */
 
 body {
     font-size: 16px;/* 1 rem = 10 px */
@@ -67,7 +72,7 @@ body {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 410px;
+    height: 450px;
     /* padding: 20px; */
     position: relative;  /* para que el hijo pueda tener position absolute */
 }
