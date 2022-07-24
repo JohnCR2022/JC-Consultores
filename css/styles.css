@@ -53,9 +53,14 @@ text-decoration: none;
 text-transform: uppercase;
 font-weight: 700;
 border-radius: 0.5rem;
+}
+
+.boton:hover{
+    background-color: var(--primario);
 
 
 }
+
 
 .navegacion-principal{
     display: flex;
