@@ -75,7 +75,7 @@ border-radius: 0.5rem;
     box-shadow: 0px 5px 15px 0px rgba(77,76,77,0.69);
     background-color: var(--blanco);
     padding: 2rem;
-    border border-radius: 2rem;
+    border-radius: 2rem;
 }
 
 /* Tipografia */
@@ -147,4 +147,14 @@ h1,h2,h3 {
     align-items: flex-end;
     font-weight: 700;
     
+}
+
+/* servicios */
+@media(min-width:768px) {
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /*forma abreviada*//*se puede usar fr = fraccion del total,se calcula automaticamente*/
+    /* grid-template-columns: 33% 33% 33% ;  */ /*otra forma de escribir*/
+    /* grid-template-columns: 1fr 1fr 1fr ;  */ /*otra forma de escribir*/
+}
 }
