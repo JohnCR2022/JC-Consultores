@@ -107,36 +107,39 @@
         </section>
     </div> <!--cierre clase de servicios-->
     
-    </main>
+   
 
     <section>
         <h2>Contacto</h2>
-        <form>
+        <form class="formulario">
             <fieldset>
                 <legend>Contactanos llenando todos los campos</legend>
-                <div>
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Tu Nombre"/>
-                </div>
-                <div>
-                    <label>Telefono</label>
-                    <input type="text" placeholder="Tu Telefono"/>
-                </div>
-                <div>
-                    <label>Correo</label>
-                    <input type="text" placeholder="Tu Email"/>
-                </div>
-                <div>
-                    <label>Mensaje</label>
-                    <textarea ></textarea>
-                </div>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Tu Nombre"/>
+                    </div>
+                    <div class="campo">
+                        <label>Telefono</label>
+                        <input type="text" placeholder="Tu Telefono"/>
+                    </div>
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input type="text" placeholder="Tu Email"/>
+                    </div>
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea ></textarea>
+                    </div>
+                </div><!--contenedor de los campos del formulario-->
                 <div>
                     <input type="submit" value="Enviar">
                 </div>
-
             </fieldset>
         </form>
     </section>
+
+</main>
 
     <footer>
         <p>Todos los derechos reservados. John Castro Freelancer</p>
