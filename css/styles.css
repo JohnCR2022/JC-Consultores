@@ -26,6 +26,7 @@ body {
 }
 
 .titulo{
+    /* background-color: var(--gris); */
     text-align: center;
     font-size: 3.8rem;
 }
