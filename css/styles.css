@@ -263,7 +263,8 @@ h1,h2,h3 {
     padding: 1.5rem;
     border-radius: 0.5rem;
 }
-/* 
-.enviar .boton {
-    width: 100%;
-} */
+
+.campo textarea{
+
+    height: 20rem;
+}
